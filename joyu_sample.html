@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>AV女優6万人のプロフィール検索 - AV女優データベース</title>
+
+<meta name="msvalidate.01" content="0448DBE55DBF35F2ED885267213AE20F" />
+
+<meta name="keywords" content="AV女優,一覧,プロフィール,検索,データベース,名前,年齢,身長,スリーサイズ,バスト,ウエスト,ヒップ,生年月日,血液型,出身地,趣味">
+<meta name="description" content="6万人のAV女優プロフィールを検索できるデータベースです。名前、年齢、身長、スリーサイズ(バスト・ウエスト・ヒップ)から検索できます。リスト表示に切り替えると、生年月日・血液型・出身地・趣味も表示されます。">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@joyu_sexy">
+<meta name="twitter:creator" content="@joyu_sexy">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AV女優データベース">
+<meta property="og:description" content="6万人のAV女優プロフィールを検索できるデータベースです。名前、年齢、身長、スリーサイズ(バスト・ウエスト・ヒップ)から検索できます。リスト表示に切り替えると、生年月日・血液型・出身地・趣味も表示されます。">
+
+
+<link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml">
+<link href='https://fonts.googleapis.com/css?family=Material+Icons|Roboto+Condensed:400,700|Roboto:400,700' rel='stylesheet' type='text/css'>
+<link href='css/160316.css' rel='stylesheet' type='text/css'>
+
+<style>
+#tbl tbody td.outlink a:before{content:"出演作品";}
+#tbl.card tbody td.ec.age:after{content:"歳";font-size:80%;}
+#tbl.card tbody td.ec.height:before{content:"身長";font-size:80%;}
+#tbl.card tbody td.ec.height:after{content:"cm";font-size:80%;}
+#tbl.card tbody td.ec.bust:before{content:"B";}
+#tbl.card tbody td.ec.waist:before{content:"W";}
+#tbl.card tbody td.ec.hip:before{content:"H";}
+#tbl.card tbody td.ec.cup:after{content:"カップ";font-size:80%;}
+#tbl.card tbody td.ec.blood_type:after{content:"型";font-size:80%;}
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4631057-23', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R5T00EB7YG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R5T00EB7YG');
+</script>
+
+
+
+<body>
+<button class="frmtoggle" id="frmopen"><i class="material-icons">&#xE8B6;</i>検索</button>
+<button class="frmtoggle" id="frmclose"><i class="material-icons">&#xE5CD;</i></button>
+<div id="sidebar">
+	<header>
+		<a id="logo" href="https://joyu.sexy/"><img src="img/logo.png" alt="AV女優さん6万人のプロフィールを検索 - AV女優データベース"></a>
+		<p>6万人のAV女優プロフィールを検索できるデータベースです。名前、年齢、身長、スリーサイズ(バスト・ウエスト・ヒップ)から検索できます。リスト表示に切り替えると、生年月日・血液型・出身地・趣味も表示されます。</p>
+	</header>
+	<nav>
+		<section>
+			<table id="frm">
+				<tr>
+					<th><label>名前</label>
+					<td><input id="q" type="text" placeholder="漢字 or よみがな" value="">
+				<tr>
+					<th><label>年齢</label>
+					<td><input type="number" min=18 max=99 id="age_min" placeholder="min" value="">～
+						<input type="number" min=18 max=99 id="age_max" placeholder="max" value="">歳
+				<tr>
+					<th><label>身長</label>
+					<td><input type="number" min=130 max=200 id="height_min" placeholder="min" value="">～
+						<input type="number" min=130 max=200 id="height_max" placeholder="max" value="">cm
+				<tr>
+					<th><label>バスト</label>
+					<td><input type="number" min=60 max=160 id="bust_min" placeholder="min" value="">～
+						<input type="number" min=60 max=160 id="bust_max" placeholder="max" value="">cm
+				<tr>
+					<th><label>ウエスト</label>
+					<td><input type="number" min=40 max=130 id="waist_min" placeholder="min" value="">～
+						<input type="number" min=40 max=130 id="waist_max" placeholder="max" value="">cm
+				<tr>
+					<th><label>ヒップ</label>
+					<td><input type="number" min=50 max=150 id="hip_min" placeholder="min" value="">～
+						<input type="number" min=50 max=150 id="hip_max" placeholder="max" value="">cm
+			</table>
+			<button id="sbmt" type="submit">検索<i class='material-icons'>&#xE5CC;</i></button>
+		</section>
+		<section id="example">
+			<h1>検索例</h1>
+			<ul>
+				<li><a href="?q=愛">名前に「愛」がある女優さん</a>
+				<li><a href="?age_min=27&age_max=33">アラサーの女優さん</a>
+				<li><a href="?bust_min=90&waist_max=60&hip_min=90">グラマラス体型の女優さん</a>
+				<li><a href="?bust_max=80&waist_min=55&height_max=150">スレンダー体型の女優さん</a>
+				<li><a href="?waist_max=59&height_min=170">モデル体型の女優さん</a>
+			</ul>
+		</section>
+	</nav>
+</div>
+<div id="main">
+	<nav>
+		<ul class="condition"></ul>
+		<div class="count">
+			<strong>0</strong>人
+		</div>
+		<div class="sortw">
+			<select id="sort">
+				<option value="name"     >名前の五十音順
+				<option value="-birthday">年齢が低い順
+				<option value="birthday" >年齢が高い順
+				<option value="height"   >身長が低い順
+				<option value="-height"  >身長が高い順
+				<option value="bust"     >バストが小さい順
+				<option value="-bust"    >バストが大きい順
+				<option value="waist"    >ウエストが小さい順
+				<option value="-waist"   >ウエストが大きい順
+				<option value="hip"      >ヒップが小さい順
+				<option value="-hip"     >ヒップが大きい順
+			</select>
+		</div>
+		<div class="view">
+			<ul class="view-sw">
+				<li><button class="btn btn-nb slct" onclick="$('.view-sw button').removeClass('slct');$(this).addClass('slct');$('#tbl').addClass('card')"><i class="material-icons">&#xE8F0;</i>カード</button>
+				<li><button class="btn btn-nb"      onclick="$('.view-sw button').removeClass('slct');$(this).addClass('slct');$('#tbl').removeClass('card')"><i class="material-icons">&#xE8F2;</i>リスト</button>
+			</ul>
+		</div>
+		<ul class="paging"></ul>
+	</nav>
+	<main>
+		<h1>AV女優5万人のプロフィール検索 - AV女優データベース</h1>
+		<table id="tbl" class="card clear">
+			<thead>
+				<tr>
+					<th>
+					<th>名前
+					<th class="ctxt">年齢
+					<th class="ctxt">身長
+					<th class="ctxt">カップ
+					<th class="ctxt">バスト
+					<th class="ctxt">ウエスト
+					<th class="ctxt">ヒップ
+					<th>生年月日
+					<th>血液型
+					<th>出身地
+					<th>趣味
+					<th>
+			<tfoot>
+				<tr>
+					<th>
+					<th>名前
+					<th class="ctxt">年齢
+					<th class="ctxt">身長
+					<th class="ctxt">カップ
+					<th class="ctxt">バスト
+					<th class="ctxt">ウエスト
+					<th class="ctxt">ヒップ
+					<th>生年月日
+					<th>血液型
+					<th>出身地
+					<th>趣味
+					<th>
+			<tbody>
+		</table>
+	</main>
+	<nav>
+		<ul class="paging"></ul>
+	</nav>
+	<footer>
+		<section>
+			Powered by <a href="https://affiliate.dmm.com/api/" target="_blank">DMM.R18 Webサービス</a>
+		</section>
+		<section>
+			<a href="https://ultra.zone/">ULTRAZONE</a>
+		</section>
+		<section>
+			<a href="https://ultra.zone/contact">お問い合わせ</a>
+		</section>
+	</footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/250213.js?250213"></script>

@@ -1,0 +1,16 @@
+# 抓取中间产物 / 大体积缓存（可重新生成，不入库）
+build/cache/
+build/*.log
+build/avjoyudb-cache.json
+build/warashi-height.jsonl
+build/warashi-links.json
+
+# AI 助手本地记忆
+.codebuddy/
+
+# 编辑器 / 系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+node_modules/
